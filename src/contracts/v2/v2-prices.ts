@@ -1,6 +1,4 @@
 
-// create a function called v2prices that takes in an array of contract addresses and returns an array of prices
-
 
 export async function v2prices(addresses: string[]):  Promise<Price[]> {
   const prices = await Promise.all(
